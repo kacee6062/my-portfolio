@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #f8f6f0, #050A30);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    font-size: 20px;
+    list-style: none;
+    border-bottom: 5px solid #050A30;
+    
+}
+
+header h1 {
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 20px 20px;
+}
+
+header p {
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+
+.menu {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+}
+
+.menu li {
+    display: inline;
+    
+}
+
+.menu a {
+    text-decoration: none;  
+    padding: 20px 20px;
+    color: #050A30;
+}
+
+
+
+
+
+
